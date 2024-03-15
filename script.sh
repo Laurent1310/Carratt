@@ -11,3 +11,6 @@ zenity --info --title="$titre" --text="$message" --width=300 --height=150 --time
 echo "je rajoute un echo bonjour" 
 
 echo "test"
+
+
+echo "yen a mare de laurent"
