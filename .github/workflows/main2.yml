@@ -17,4 +17,4 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       
       - name: Launching run all
-        run: sudo /home/user/Carratt-main/Run_Scripts.sh
+        run: /home/user/Carratt-main/Run_Scripts.sh
