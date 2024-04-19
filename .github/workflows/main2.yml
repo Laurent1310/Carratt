@@ -17,4 +17,8 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       
       - name: Launching run all
-        run: ./script.sh  && echo "helo world" 
+        run: sh ./script.sh 
+        shell: bash
+        
+      - name: test echo
+        run: echo "helo world" 
