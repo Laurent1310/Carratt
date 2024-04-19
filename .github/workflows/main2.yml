@@ -21,4 +21,4 @@ jobs:
         shell: bash
         
       - name: test echo
-        run: echo "helo world" 
+        run: echo "helo world" >> toto.txt
